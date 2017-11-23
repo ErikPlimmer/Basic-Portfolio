@@ -1,3 +1,5 @@
+
+
 h1 {
 	padding-left: 20px;
 	color: #8B0000;
@@ -11,13 +13,23 @@ h2 {
 	text-align: center;
  
 }
+body{
+	width: 960px;
+	min-height: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position:absolute; top:0; bottom:0; right:0; left:0;
+}
 
-body {
+html{
+  height: 100%;
+}
+
+.background {
 	background-image: url("../images/vintage-concrete.png"); 
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	max-width: 960px;
-	
-
+	width: 960px;
+	background-repeat:repeat;
+	min-height: 100%;
+	/*position: relative; */
 }
 
 
@@ -31,9 +43,9 @@ p {
 	width: 650px;
 	border-style: solid;
 	border-color: #dddddd;
-	margin-bottom: 100px;
+	border-width: 1px 1px 1px 1px;
 	margin-top: 20px;
-	margin-left: 40px;
+	margin-left: 10px;
 	background-color: white;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -51,7 +63,7 @@ li {
 
 
 .navbar-right {	
-	margin-left: 765px;
+	margin-left: 650px;
 	background-color: white;
 	font-size: 24px;
 	padding-top: 35px;
@@ -64,7 +76,7 @@ li {
     width: 250px;
 	height: 57px;
 	padding-top: 19px;
-	margin-top: 5px;
+	margin-top: 15px;
 	font-size: 35px;
 	font-family: 'Georia', Times, Times New Roman, sans-serif;
 	font-weight: bold;
@@ -86,7 +98,8 @@ footer {
    font-size: 18px;
    left: 0;
    bottom: 0;
-   width: 100%;
+   margin-top: -10px;
+   width: 910px;
    background-color: #666666;
    padding: 25px;
    border-color: #8B0000;
@@ -110,14 +123,15 @@ a:link {
 }
 
 
-.contactinfo {
+.sidebar {
 	background-color: white;
 	border-style: solid;
 	border-color: #dddddd;
-	margin-right: -80px;
+	border-width: 1px 1px 1px 1px;
+	margin-left: 50px;
 	margin-top: 20px;
 	padding-top: 20px;
-	width: 270px;
+	width: 250px;
 	height: 170px;
 	color: 	#8B0000;
 	font-size: 24px;
@@ -160,15 +174,14 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
-.bio {
-	width: 2000px;
+.headerbar {
+	width: 960px;
 	height: 100px;
 	margin-top: -20px;
-	margin-left: -10px;
 	background-color: white;
 	border-style: solid;
 	border-color: #8B0000;
-	border: 0px 0px 5px 0px;
+	border-width: 0px 0px 5px 0px;
 }
 	
 a {
