@@ -2,6 +2,7 @@ h1 {
 	padding-left: 20px;
 	color: #8B0000;
 	font-size: 25px;
+	font-weight: bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	
 }
@@ -43,12 +44,14 @@ p {
 	width: 650px;
 	border-style: solid;
 	border-color: #dddddd;
-	border-width: 1px 1px 1px 1px;
+	border-width: 3px 3px 3px 3px;
 	margin-top: 20px;
 	margin-left: 10px;
 	background-color: white;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 ul {
@@ -90,6 +93,7 @@ header {
 	font-family: 'Georia', Times, Times New Roman, sans-serif;
 	margin: 50px;
 	width:  100%;
+
 }
 
 
@@ -98,7 +102,6 @@ footer {
    font-size: 18px;
    left: 0;
    bottom: 0;
-   
    width: 910px;
    background-color: #666666;
    padding: 25px;
@@ -116,8 +119,9 @@ a:link {
 }
 
 .photo {
-	width: 200x;
+	width: 200px;
 	height: 200px;
+	transform: rotate(90deg);
 	margin-top: 25px;
 	margin-left: 25px;
 	float: right;
@@ -128,7 +132,7 @@ a:link {
 	background-color: white;
 	border-style: solid;
 	border-color: #dddddd;
-	border-width: 1px 1px 1px 1px;
+	border-width: 3px 3px 3px 3px;
 	margin-left: 50px;
 	margin-top: 20px;
 	padding-top: 20px;
